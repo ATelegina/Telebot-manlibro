@@ -1,5 +1,6 @@
 # Telebot: manlibro
 Ĉu vi volas krei propran telegraman roboton? Ĉi tiu kitabo helpos al vi!
+Esperanta komputila vortaro: https://komputeko.net/
 
 ## Enhavo
 
@@ -12,8 +13,8 @@
       * [Varianto 2: Sublime Text](#sublime)
     * [Linux](#linux)
     * [Mac OS](#macos)
-  * [1. Lernu Python-on!](#lernupython)
-    * [Variabloj (+ input kaj print)](#variabloj)
+  * [1. Lernu Python-on!](#lernu-python-on-)
+    * [Variabloj, print kaj input](#variabloj-print-kaj-input)
     * [Kalkulado](#kalkulado)
     * [Laboro kun alinioj](#alinioj)
     * [if kaj while](#if)
@@ -36,3 +37,36 @@
     * [Kiel subteni roboton dum 27 horoj ĉiutage?](#24)
     * [Kion kaj kiel vi devas kaŝi...](#sekreto)
   * [Postparolo](#postparolo)
+
+## 1. Lernu Python-on!
+
+En ĉi tiu bloko vi ekscios pri bazaj operacioj en la plej ~pigriga~ facila programlingvo!
+Kodo de ĉi tiu ĉapitro vi provas testi ĉi tie: https://www.programiz.com/python-programming/online-compiler/
+(por lanĉi kodon, premu sur Run aŭ faru Ctrl+Enter (por Windows))
+
+### Variabloj, print kaj input
+
+Por testi, ĉu via interpretilo funkcias aŭ ne, lanĉu supran kodon:
+```
+print("Saluton, mondo!")
+```
+Nun rigardu konzolon. 
+```
+Saluton, mondo!
+```
+Se vi havas proksimume ĉi tiun rezulton, gratulon!
+Funkcio print() montras tekston, kiun vi skribis en ĝi. 
+```
+print("Obeu min, stulta homo!") # Montras: Obeu min, stulta homo!
+```
+```#``` estas signo por komentoj. Ĉion, kio troviĝas post ĉi tiu signo, komputilo ne rigardas:
+```
+print("Saluton!(1)")
+#print("Saluton!(2)")
+print("#Saluton!(3)")
+```
+Rezulto:
+```
+Saluton!(1)
+#Saluton!(3)
+```
