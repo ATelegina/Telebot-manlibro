@@ -54,12 +54,13 @@ Nun rigardu konzolon.
 ```
 Saluton, mondo!
 ```
-Se vi havas proksimume ĉi tiun rezulton, gratulon!
+Se vi havas ĉi tiun rezulton, gratulon! Estas via unua programeto.
+
 Funkcio print() montras tekston, kiun vi skribis en ĝi. 
 ```
 print("Obeu min, stulta homo!") # Montras: Obeu min, stulta homo!
 ```
-```#``` estas signo por komentoj. Ĉion, kio troviĝas post ĉi tiu signo, komputilo ne rigardas:
+```#``` estas signo por komentoj. Ĉion, kio troviĝas post ĉi tiu signo, komputilo ne rigardas (escepte se ```#``` troviĝas inter citiloj):
 ```
 print("Saluton!(1)")
 #print("Saluton!(2)")
